@@ -1,0 +1,32 @@
+
+.box{
+    width: 200px;
+    height:200px;
+    background-color: blue;
+    border:black;
+    text-align: center;
+    animation: pulse 3s ease-in infinite;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 5px;
+  }
+  
+  label{
+    position: absolute;
+    transform: translate(-50%, 100%)
+  }
+  
+  @keyframes pulse{
+    0%{
+      background-color: lightblue;
+    }
+    50%{
+      background-color: lightgreen;
+    }
+    100%{
+      background-color: bisque;
+    }
+  }
